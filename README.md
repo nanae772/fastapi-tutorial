@@ -1,0 +1,3 @@
+FastAPIのチュートリアルをやる
+
+ついでにVSCodeのdevcontainerも試す

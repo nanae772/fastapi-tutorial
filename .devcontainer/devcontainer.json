@@ -13,15 +13,18 @@
 				"ms-python.mypy-type-checker",
 				"-ms-python.autopep8",
 				"-dbaeumer.vscode-eslint"
-			]
+			],
+			"settings": {
+				"[python]": {
+					"editor.defaultFormatter": "charliermarsh.ruff"
+				}
+			}
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt"
-	// Configure tool-specific properties.
-	// "customizations": {},
+	"postCreateCommand": "pip install -r requirements.txt",
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
